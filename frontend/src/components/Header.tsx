@@ -25,7 +25,7 @@ export default function Header(){
 	})
 	const borderBottomTransform = useTransform(scrollYProgress!, [0, 0.05], [0, 1])
 
-	const [expansion, setExpansion] = useState<number>(0)
+	// const [expansion, setExpansion] = useState<number>(0)
 
 	// TODO disable scrolling when small navbar is open
 
